@@ -1,0 +1,1 @@
+Proyecto dashboard web para domotica del hogar , se encuentra estrucuturada con HTML semantico utilizando etiquetas <header>,<main> y <footer> sera la base para futuras mejoras en CSS y JavaScripts 
