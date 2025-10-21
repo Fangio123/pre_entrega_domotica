@@ -74,6 +74,7 @@ main {
 
 .lista a:hover {
     color: #1abc9c;
+    border-radius: 10px;
 }
 
 .imagen img {
@@ -96,7 +97,7 @@ main {
     border-radius: 15px;
     backdrop-filter: blur(6px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    overflow: visible;
+    overflow: auto;
     /* 🔹 asegura que el mapa no se recorte */
 }
 
@@ -164,4 +165,72 @@ main {
     /* espacio con el borde inferior */
     opacity: 0.9;
     filter: brightness(0.9) contrast(1.05);
+}
+
+/*Servicios*/
+
+.tipo-servicio {
+
+    font-family: 'Bitcount Grid Single';
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.todos-servicios {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.img-TEMP {
+
+    -ms-flex-item-align: auto;
+    margin-left: 50px;
+}
+
+.servicios-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.items-servicios {
+
+    background-color: #80a4c7;
+    /* Fondo oscuro */
+    border: 2px solid #3a0cb9;
+    border-radius: 10px;
+}
+
+.datos-TEMP {
+
+    font-size: 24px;
+    font-weight: 300;
+    flex-direction: column;
+
+
+}
+
+.limites {
+    margin: 0px;
+    padding: 5px;
+    list-style-type: none;
+
+
+}
+
+.datos-TEMP a {
+
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.datos-TEMP a:hover {
+    color: #4b1abc;
+
+
 }
